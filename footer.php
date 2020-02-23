@@ -1,0 +1,110 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="mb-5">
+                    <h3 class="footer-heading mb-4">About Shufersal Maintanance Shoham</h3>
+                    <p>Shufersal Food Industries.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="row mb-5">
+                    <div class="col-md-12">
+                        <h3 class="footer-heading mb-4">Navigations</h3>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <ul class="list-unstyled">
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="reports.php">Reports</a></li>
+                            <li><a href="read.php">List Of Malfunctions</a></li>
+                            <li><a href="ListTest.php">Maintanance</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <ul class="list-unstyled">
+                            <li><a href="#">About Me</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Contact Me</a></li>
+                            <li><a href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h3 class="footer-heading mb-4">Follow Me</h3>
+
+                <div>
+                    <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                    <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                    <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                    <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+            <div class="col-md-12">
+                <p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;</script><script>document.write(new Date().getFullYear());</script> All rights reserved To Jacob Kobi Lev
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+</footer>
+</div>
+
+
+    <script src="js/popper.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+
+<script src="js/swiper.min.js"></script>
+
+
+<script src="js/picturefill.min.js"></script>
+<script src="js/lightgallery-all.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/main.js"></script>
+
+
+<?php
+
+if($_SERVER['REQUEST_URI']!="/read.php"){
+    echo '';
+    echo '';
+    echo '';
+    echo '';
+    echo '';
+    echo '';
+
+}
+
+
+?>
+
+
+
+
+<script>
+    $(document).ready(function(){
+        $('#lightgallery').lightGallery();
+    });
+</script>
+
+</body>
+</html>
