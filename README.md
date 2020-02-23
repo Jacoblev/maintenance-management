@@ -1,4 +1,6 @@
 ## Features
+* Bootstrap
+* JQuery
 * Maintenance Management
 * Warehouse Management
 * Exporting Data to EXCEL
